@@ -3,7 +3,8 @@ import data from  './MOCK_DATA.json';
 import './style.css';
 import ReactPaginate from "react-paginate";
 
-const Paginate = () => {
+const Paginate = () => 
+{
 
     const[users,setsusers]=useState(data.slice(0,30));
     const[pagenumber,setpagenumber]=useState(0);
